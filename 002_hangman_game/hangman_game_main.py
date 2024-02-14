@@ -10,8 +10,8 @@ from hangman_art import game_stage, logo
 random_word = random.choice(word_list)
 print(logo)
 
-# Testing code
-print(f'Pssst, the solution is {random_word}.')
+# # Testing code
+# print(f'Pssst, the solution is {random_word}.')
 
 # filling random word with blanks
 blank_random_word = "_" * len(random_word)
